@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu/GameOver_Good.unity
     guid: 1621e850cd6c71442924f1d5ba72ba1f
+  - enabled: 1
+    path: Assets/Scenes/Menu/Prologue.unity
+    guid: 2d534198de4d3f9409f5955675123d76
   m_configObjects: {}

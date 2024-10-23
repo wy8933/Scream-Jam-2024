@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public GameObject CreditsPandel;
 
     public void OnStartPressed() {
-        SceneManager.LoadScene("Kitchen");
+        SceneManager.LoadScene("Prologue");
     }
 
     public void OnSettingPressed() {
