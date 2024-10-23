@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -248,10 +250,16 @@ public class PlayerController : MonoBehaviour
 
             case 5:
                 DialogueSystem.instance.ShowDialogue("Okay, I have all the pieces to get the bell back.");
+                StartCoroutine(ShowGameOverAfterDelay());
                 break;
         }
     }
-
+    private IEnumerator ShowGameOverAfterDelay()
+    {
+        yield return new WaitForSeconds(3f);
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("GameOver_Good");
+    }
 
     private void CheckGroundStatus()
     {

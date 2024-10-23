@@ -5,12 +5,13 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
 
     [Header("Audio Sources")]
-    public AudioSource musicSource;      // For background music
-    public AudioSource effectsSource;    // For sound effects
+    public AudioSource musicSource;
+    public AudioSource effectsSource;
 
     [Header("Music Clips")]
     public AudioClip menuTitleMusic;
     public AudioClip screamJamMusic;
+    public AudioClip chaseMusic;
 
     [Header("Sound Effects")]
     public AudioClip deathSFX;
