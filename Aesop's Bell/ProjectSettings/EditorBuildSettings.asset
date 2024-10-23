@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene/GameScene/Kitchen.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Menu/GameOver_Bad.unity
+    guid: 1caa5ed1adba96f4fa2b20bf70cd8ebb
+  - enabled: 1
+    path: Assets/Scenes/Menu/GameOver_Good.unity
+    guid: 1621e850cd6c71442924f1d5ba72ba1f
   m_configObjects: {}
